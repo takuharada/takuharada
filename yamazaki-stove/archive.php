@@ -11,23 +11,23 @@
         <!--========== END PROMO BLOCK ==========-->
 <section class="content col-sm-8 g-padding-l-90-lg">
 <?php if (function_exists('z_taxonomy_image_url')):
-    $category_image = z_taxonomy_image_url();
-    if (!empty($category_image)):
+	$category_image = z_taxonomy_image_url();
+	if (!empty($category_image)):
 ?>
 <div class="cat_eyecatch">
 <img src="<?php echo $category_image; ?>" />
 </div>
 <?php endif;endif; ?>
-    <?php get_template_part('inc/page-title'); ?>
-    
+	<?php get_template_part('inc/page-title'); ?>
+	
 
-    <div class="pad group">     
-        
-        <?php if ((category_description() != '') && !is_paged()) : ?>
-            <div class="notebox">
-                <?php echo category_description(); ?>
-            </div>
-        <?php endif; ?>
+	<div class="pad group">		
+		
+		<?php if ((category_description() != '') && !is_paged()) : ?>
+			<div class="notebox">
+				<?php echo category_description(); ?>
+			</div>
+		<?php endif; ?>
        <!--#pagebefore-widgets-->
     <?php dynamic_sidebar( 'pagebefore-widgets' ); ?>
     <!--/#pagebefore-widgets-->

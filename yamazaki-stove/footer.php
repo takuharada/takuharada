@@ -3,39 +3,29 @@
 Template name: footer
  **/ 
 ?>
+    
+     <section class="contact_form_ys">
         <!-- Feedback Form -->
-        <div class="g-bg-color--gray-opacity95">
+        <div class="g-bg-color--primary col-xs-12">
             <div class="container g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="g-text-center--xs g-margin-b-80--xs">
-                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Contact Us</p>
-                    <h2 class="g-font-size-32--xs g-font-size-36--md">お問い合わせ</h2>
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white g-letter-spacing--2 g-margin-b-25--xs wow fadeInUp" data-wow-delay=".2s">Contact Us</p>
+                    <h2 class="g-color--white g-font-size-32--xs g-font-size-36--md wow fadeInUp" data-wow-delay=".3s">お問い合わせ</h2>
                 </div>
-                <form>
-                    <div class="row g-margin-b-40--xs">
-                        <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
-                            <div class="g-margin-b-20--xs">
-                                <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* お名前">
-                            </div>
-                            <div class="g-margin-b-20--xs">
-                                <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email">
-                            </div>
-                            <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* 電話番号">
-                        </div>
-                        <div class="col-sm-6">
-                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* 本文"></textarea>
-                        </div>
-                    </div>
-                    <div class="g-text-center--xs">
-                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">送信</button>
-                    </div>
-                </form>
+                <?php echo do_shortcode('[contact-form-7 id="85" title="contact form 2017"]'); ?>
+                
             </div>
         </div>
+    </section>
         <!-- End Feedback Form -->
 
         <!-- Google Map -->
         <section class="s-google-map">
-            <div id="js__google-container" class="s-google-container g-height-400--xs"></div>
+        <div class="g-text-center--xs g-bg-color--sky-light col-xs-12 g-padding-y-80--xs">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs wow fadeInUp" data-wow-delay=".2s">Access</p>
+                    <h2 class="g-font-size-32--xs g-font-size-36--md wow fadeInUp" data-wow-delay=".3s">アクセス</h2>
+        </div>
+            <div id="js__google-container" class="s-google-container g-height-400--xs col-xs-12"></div>
         </section>
         <!-- End Google Map -->
         <!--========== END PAGE CONTENT ==========-->
@@ -43,15 +33,15 @@ Template name: footer
         <!--========== FOOTER ==========-->
         <footer class="g-bg-color--dark-opacity">
             <!-- Links -->
-            <div class="g-hor-divider__dashed--white-opacity-lightest">
+            <div class="g-hor-divider__dashed--white-opacity-lightest col-xs-12 g-bg-color--dark-opacity">
                 <div class="container g-padding-y-80--xs">
                     <div class="row">
                         <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white" href="#">Home</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">当店について</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">取扱メーカー</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">薪ストーブの魅力</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/">Home</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/stoves/">取扱ストーブ</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/gallery/">施工例</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/other/">その他</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
@@ -59,19 +49,21 @@ Template name: footer
                                 <li><a class="g-font-size-15--xs g-color--white" href="">Twitter</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white" href="">Facebook</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white" href="">Instagram</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">YouTube</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="">Google+</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white" href="">最新記事</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">個人情報の取扱について</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">お問い合わせ</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="//">最新記事</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/contact/#">個人情報の取扱について</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/contact/">お問い合わせ</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
                             <h3 class="g-font-size-18--xs g-color--white">yamazaki</h3>
-                            <p class="g-color--white">〒020-****<br/>岩手県盛岡市中野＠ー＠ー＠</p>
+                            <p class="g-color--white">〒020-0816<br/>岩手県盛岡市中野1-4-26</p>
+                            <p class="g-color--white">TEL 019-681-7061<br>
+                            FAX 019-681-7062</p>
                         </div>
                     </div>
                 </div>
@@ -79,10 +71,10 @@ Template name: footer
             <!-- End Links -->
 
             <!-- Copyright -->
-            <div class="container g-padding-y-50--xs">
+            <div class="container g-padding-y-50--xs col-xs-12 g-bg-color--dark-opacity">
                 <div class="row">
                     <div class="col-xs-6">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="g-height-auto--xs" src="<?php bloginfo('template_url'); ?>/img/logo.svg" alt="yamazaki Logo" width="160px">
                         </a>
                     </div>
@@ -92,6 +84,7 @@ Template name: footer
                 </div>
             </div>
             <!-- End Copyright -->
+
         </footer>
         <!--========== END FOOTER ==========-->
                 <!-- Back To Top -->
@@ -110,7 +103,7 @@ Template name: footer
         <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/vendor/counterup.min.js"></script>
         <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
-        <script src="https://maps.google.com/maps/api/js?sensor=false" charset="UTF-8"></script>
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyALgwa3Z9Upt5kT__xPIOpY3TzmKX5pokw" charset="UTF-8"></script>
         <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/vendor/jquery.wow.min.js"></script>
 
         <!-- General Components and Settings -->
@@ -125,9 +118,8 @@ Template name: footer
         <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/js/components/google-map.min.js"></script>
         <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/js/components/wow.min.js"></script>
         <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/js/main.js"></script>
+
+        <script type="text/javascript" src=" <?php bloginfo('template_url'); ?>/vendor/vidbg.min.js"></script>
+
         <!--========== END JAVASCRIPTS ==========-->
 
-
-    </body>
-    <!-- End Body -->
-</html>

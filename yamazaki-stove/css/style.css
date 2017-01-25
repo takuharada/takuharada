@@ -453,7 +453,6 @@ fieldset[disabled] .s-btn {
   border: none;
   box-shadow: none;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   padding: .625rem 1.25rem;
   transition-duration: 300ms;
   transition-property: all;
