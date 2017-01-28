@@ -98,8 +98,7 @@ get_template_part('header');
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">輸入薪ストーブ取扱専門店</h3>
-                            <!--<p class="g-margin-b-0--xs">サブタイトル<br/>ダミーテキストダミーテキストミーテキスト</p>-->
+                            <h3 class="g-font-size-18--xs">岩手県盛岡市中野　<br>薪ストーブプロショップ</h3>
                             
                         </div>
                     </div>
@@ -113,7 +112,6 @@ get_template_part('header');
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">薪ストーブの販売・設置からコンサルティングまで</h3>
-                            <!--<p class="g-margin-b-0--xs">サブタイトル<br/>ダミーテキストダミーテキストミーテキスト</p>-->
                             
                         </div>
                     </div>
@@ -127,7 +125,6 @@ get_template_part('header');
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">煙突マイスターとしてメンテナンス不要の煙突設置をご提案いたします</h3>
-                            <!--<p class="g-margin-b-0--xs">サブタイトル<br/>ダミーテキストダミーテキストミーテキスト</p>-->
                             
                         </div>
                     </div>
@@ -204,27 +201,38 @@ get_template_part('header');
                         <div class="">
                             <h2 class="g-font-size-30--xs g-font-size-30--sm g-font-size-40--md">takanobu yamazaki</h2>
                         </div>
+                        <div class="g-padding-y-30--xs">
                         <img src="<?php bloginfo('template_url'); ?>/img/1920x1080/14.jpg">
+                        </div>
+                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-5--xs">biography</p>
+                        <p class="g-font-size-10--xs g-font-size-12--md">
+                        秋田県生まれ。<br>
+                        公務員の父親の転勤により東北各県にて生活した経験あり。<br>
+                        岩手県盛岡市に住んでまだ四半世紀を過ぎたところ。<br>
+                        1990年、パラグライダーを始めたことにより山荘の薪ストーブの虜となる。<br>
+                        1995年、精密機械メーカーの営業において木質ペレットの製造ラインと出会う。<br>
+                        2006年、ストーブショップの開業の誘いを受け業界入りとなる。<br>
+                        2009年、機械設備・消防設備等の知識を活かし「YAMAZAKI」を開業</p>
                     </div>
                     <div class="col-md-7 col-md-offset-1">
-                        <p class="g-font-size-14--xs g-font-size-18--md">
+                        <p class="g-font-size-18--xs g-font-size-24--md">
 
-あなたはストーブに何を求めますか？<br>
-暖房の為のもの。インテリアとしてのもの。アウトドア用の調理コンロもストーブである。<br>
-現代には燃料を燃焼させ熱エネルギーを利用する素晴らしい機器は多々あります。<br>
-暖まり方や暖かさの質にも違いがあります。<br>
-それぞれ特徴があり、それぞれに求められる理由があります。<br>
-そんな多種多様な機器の中、私は炎の揺らぎがあるものが大好きです。<br>
-<br>
-2011年あの東日本大震災で私が以前住んでいた家も破壊されました。<br>
-直後、多くの人がストーブの炎に命と心を救われました。<br>
-炎を扱うことで人間は成長してきました。<br>
-炎と格闘することもありますが人間には炎が必要なのです。<br>
-特に薪ストーブの炎は何時間見ていても良いですね。<br>
-体の芯から温めてくれるのも最高です。<br>
-癒し効果抜群で心が温かくなりますよ。<br><br>
-</p>
-                        <p class="g-font-size-14--xs g-font-size-18--md">のんびり人生を楽しもうよ　ストーブを焚いて</p>
+                            あなたはストーブに何を求めますか？<br><br>
+                            暖房の為のもの。インテリアとしてのもの。アウトドア用の調理コンロもストーブである。<br>
+                            現代には燃料を燃焼させ熱エネルギーを利用する素晴らしい機器は多々あります。<br>
+                            暖まり方や暖かさの質にも違いがあります。<br>
+                            それぞれ特徴があり、それぞれに求められる理由があります。<br>
+                            そんな多種多様な機器の中、私は炎の揺らぎがあるものが大好きです。<br>
+                            <br><br>
+                            2011年あの東日本大震災で私が以前住んでいた家も破壊されました。<br>
+                            直後、多くの人がストーブの炎に命と心を救われました。<br>
+                            炎を扱うことで人間は成長してきました。<br>
+                            炎と格闘することもありますが人間には炎が必要なのです。<br>
+                            特に薪ストーブの炎は何時間見ていても良いですね。<br>
+                            体の芯から温めてくれるのも最高です。<br>
+                            癒し効果抜群で心が温かくなりますよ。<br><br>
+                        </p>
+                        <p class="g-font-size-18--xs g-font-size-24--md">のんびり人生を楽しもうよ　ストーブを焚いて</p>
                     </div>
                 </div>
             </div>
@@ -244,201 +252,15 @@ get_template_part('header');
         <!-- End Subscribe -->
 
         <!-- Portfolio Filter -->
-        <div class="container g-padding-y-80--xs">
-            <div class="g-text-center--xs g-margin-b-40--xs">
-            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs wow fadeInUp" data-wow-delay=".1s">Woodstoves|Installation </p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md wow fadeInUp" data-wow-delay=".2s">取扱薪ストーブ | 施工例</h2>
-            </div>
-            <div class="s-portfolio">
-                <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
-                    <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">ALL</div>
-                    <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">薪ストーブ</div>
-                    <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">ペレットストーブ</div>
-                    <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">ハイブリッド</div>
-                </div>
-            </div>
-        </div>
-        <!-- End Portfolio Filter -->
-
-        <!-- Portfolio Gallery -->
-        <div class="container g-margin-b-100--xs">
-            <div id="js__grid-portfolio-gallery" class="cbp">
-                
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item graphic wow fadeInUp" data-wow-delay=".1s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/05.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">ストーブの名称</h4>
-                            <p class="g-color--white-opacity">メーカー名</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/05.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item graphic wow fadeInUp" data-wow-delay=".2s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/06.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">ROCKPORT</h4>
-                            <p class="g-color--white-opacity">TRAVIS INDUSTRIES</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/06.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="ロックポート <br/> トラビス社｜施工 Yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item graphic wow fadeInUp" data-wow-delay=".3s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/07.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">ストーブの名称</h4>
-                            <p class="g-color--white-opacity">メーカー名</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/07.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item logos wow fadeInUp" data-wow-delay=".4s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/08.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">JAZZ</h4>
-                            <p class="g-color--white-opacity">RIKA</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/08.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="JAZZ <br/>RIKA｜ 施工 Yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item graphic wow fadeInUp" data-wow-delay=".5s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/09.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">ストーブの名称</h4>
-                            <p class="g-color--white-opacity">メーカー名</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item motion wow fadeInUp" data-wow-delay=".6s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/04.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">CRAFTMAN</h4>
-                            <p class="g-color--white-opacity">石村工業株式会社</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="CRAFTMAN <br/> 石村工業株式会社｜施工 Yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                               <!-- Item -->
-                <div class="s-portfolio__item cbp-item graphic wow fadeInUp" data-wow-delay=".7s">
-                    <div class="s-portfolio__img-effect">
-                        <img src="<?php bloginfo('template_url'); ?>/img/970x647/11.jpg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">ストーブの名称</h4>
-                            <p class="g-color--white-opacity">メーカー名</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="<?php bloginfo('template_url'); ?>/img/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> yamazaki">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Item -->
-            </div>
-            <!-- End Portfolio Gallery -->
-        </div>
+           <?php
+get_template_part('portfolio'); 
+?>
         <!-- End Portfolio -->
         
              <!-- Clients -->
-        <div class="g-bg-color--white">
-            <div class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
-                <!-- Swiper Clients -->
-                <div class="s-swiper js__swiper-clients">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/multifuoco.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/PIAZZETTA.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/RIKA.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/SUPERIOR.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".5s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/TRAVIS.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Swiper Clients -->
-            </div>
-        </div>
+   <?php
+get_template_part('clients'); 
+?>
         <!-- End Clients -->
 
         <!-- custmers voices -->

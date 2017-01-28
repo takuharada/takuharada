@@ -979,6 +979,9 @@ article.grid-3c .post_description{padding:25px}
 .sidebar h3:before{margin-right:.5em}
 .sidebar h3:after{margin-left:.5em}
 h2.widgettitle{border-bottom:1px solid rgba(209,209,209,1)}
+@media only screen and (max-width: 480px) {
+.mobile_display_none{display: none;}
+}
 /*
  * Show image placeholders
  */

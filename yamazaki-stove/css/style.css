@@ -418,7 +418,6 @@ fieldset[disabled] .s-btn {
   border-right: none;
   box-shadow: none;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   padding: .625rem 2.5rem;
 }
 
@@ -513,7 +512,6 @@ fieldset[disabled] .s-btn {
   box-shadow: none;
   border-radius: 0;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   padding: 0 1.25rem 0 0;
   transition-duration: 300ms;
   transition-property: all;
@@ -572,7 +570,6 @@ fieldset[disabled] .s-btn {
   box-shadow: none;
   border-radius: 0;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   padding: 0 1.25rem .3125rem 1rem;
   transition-duration: 300ms;
   transition-property: all;
@@ -635,7 +632,6 @@ fieldset[disabled] .s-btn {
   border-right: none;
   box-shadow: none;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   padding: .625rem 2.5rem;
 }
 
@@ -2572,6 +2568,7 @@ bottom:100px;
     opacity: 0;
   }
 }
+
 
 #loader-bg {
   display: none;

@@ -1,6 +1,15 @@
 <?php get_header(); ?>
+        <div class="js__parallax-window" style="background: url(<?php bloginfo('template_url'); ?>/img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
+            <div class="g-container--md g-text-center--xs g-padding-y-100--xs g-padding-y-120--sm">
+                <div class="g-margin-b-10--xs">
+                    <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-70--md g-color--white g-letter-spacing--1 g-margin-b-30--xs">Search Result</h1>
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2">サイト内検索結果</p>
+                </div>
+            </div>
+        </div>
+        <!--========== END PROMO BLOCK ==========-->
 
-<section class="content col-sm-8">
+<section class="content col-sm-8 g-padding-l-90-lg">
 
 	<?php get_template_part('inc/page-title'); ?>
 	

@@ -41,21 +41,23 @@ Template name: footer
                                 <li><a class="g-font-size-15--xs g-color--white" href="/">Home</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white" href="/stoves/">取扱ストーブ</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white" href="/gallery/">施工例</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="/other/">その他</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/other/">ハイブリッド</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white" href="">Twitter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">Facebook</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">Instagram</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="">Google+</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white" href="/faq/">よくある質問</a></li>
+                            <li><a class="g-font-size-15--xs g-color--white" href="/category/blog/">ブログ</a></li>
+                            <!---<li><a class="g-font-size-15--xs g-color--white" href="https://twitter.com/yamazakistove">Twitter</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="https://www.facebook.com/profile.php?id=100015114850861">Facebook</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="https://www.instagram.com/">Instagram</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="https://plus.google.com/?hl=ja">Google+</a></li>-->
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white" href="//">最新記事</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="/contact/#">個人情報の取扱について</a></li>
+                                
+                                <li><a class="g-font-size-15--xs g-color--white" href="/contact/#privacy_policy/">個人情報の取扱について</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white" href="/contact/">お問い合わせ</a></li>
                             </ul>
                         </div>

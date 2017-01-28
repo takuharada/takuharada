@@ -10,17 +10,18 @@ Template name: header
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>YAMAZAKI|輸入薪ストーブ販売・設置 盛岡市中野</title>
-        <meta name="keywords" content="薪ストーブ　盛岡　岩手" />
-        <meta name="description" content="岩手県盛岡市中野　輸入薪ストーブ　プロショップ　YAMAZAKI 〜のんびり人生を楽しもうよ　ストーブを焚いて">
-
+        <title>YAMAZAKI|薪ストーブ販売・設置 盛岡市中野</title>
+        <meta name="keywords" content="薪ストーブ, 盛岡, 岩手" />
+        <meta name="description" content="薪ストーブプロショップ YAMAZAKI 岩手県盛岡市中野1-4-26 〜のんびり人生を楽しもうよ　ストーブを焚いて。輸入・国産薪ストーブ、ペレットストーブ、販売・設置・コンサルティング。お客様にとって最適の薪ストーブをご提案いたします。お気軽にお問い合わせご相談ください。">
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
         <meta property="og:locale" content="ja_JP">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://yamazaki-stove.jp/">
-        <meta property="og:site_name" content="薪ストーブプロショップ｜YAMAZAKI">
-        <meta property="og:title" content="お客様にとって最適の薪ストーブをご提案いたします。">
-        <meta property="og:description" content="岩手県盛岡市中野にある薪ストーブプロショップ｜YAMAZAKI〜のんびり人生を楽しもうよ　ストーブを焚いて">
+        <meta property="og:site_name" content="薪ストーブ｜YAMAZAKI">
+        <meta property="og:title" content="薪ストーブ｜YAMAZAKI　お客様にとって最適の薪ストーブをご提案いたします。">
+        <meta property="og:description" content="岩手県盛岡市中野にある薪ストーブプロショップ　〜のんびり人生を楽しもうよ　ストーブを焚いて。">
         <meta property="og:image" content="http://yamazaki-stove.jp/wp-content/themes/monolight/img/970x647/06.jpg">
+        <meta name="twitter:card" content="summary" />
 
         <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet" media="screen">
         <link href=" <?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>

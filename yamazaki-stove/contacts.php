@@ -43,7 +43,7 @@ Template name: contact
 
                 <div class="col-sm-12">
                         <div class="cbp cbp-l-grid-faq js__grid-faq">
-                            <div class="cbp-item buying">
+                            <div class="cbp-item buying" id="privacy_policy">
                                 <div class="cbp-caption g-text-center--xs">
                                     <div class="s-faq-grid__divider cbp-caption-defaultWrap">
                                         <h4 class="s-faq-grid__title g-font-size-16--sm g-font-size-24--md g-text-center--xs">個人情報の取扱について｜プライバシーポリシー</h4>
@@ -56,16 +56,18 @@ Template name: contact
 <h4>個人情報の管理</h4>
 ヤマザキストーブでは、サイト内で収集される情報において、個人情報の保護に関する法律､その他の関連法令を遵守し、取得した個人情報を適切に取り扱います。お客様のプライバシーの重要性を深く認識し、サービス向上のためにその運用を心掛けてまいります。本サイトで開示されているものと異なった方法で他者に対しその情報を開示、または共有いたしません。<br>
 <br>
-<h4>個人情報の利用目的</h4><
+<h4>個人情報の利用目的</h4>
 本サイト内のお問い合わせフォームにおいて、お客様のお名前、住所、生年月日、性別、電話番号、e-mailアドレスといった個人情報をお伺いしております。また弊社は、お客様のご要望に則した情報を提供する等の目的で、これら以外の個人情報をお伺いする場合がございますが、この場合は一部の必須項目を除き、お客様ご自身の選択で情報提供いただくものとしております。収集させていただいた個人情報は、下記の目的のみで利用いたします。ご提供いただいた個人情報は、これらの目的以外には一切利用いたしません。<br>
 <br>
-<h4>第三者への開示・提供</h4><
+<h4>第三者への開示・提供</h4>
 ヤマザキストーブウェブサイト上でお客様がご要望されたサービスの種類によっては、お客様の個人情報を必要な範囲かつ適正に第三者へ開示、提供する場合があります。この場合、そのサービスの申込みの都度、第三者への情報提供についてお客様のご了解をいただきます。（例えば、カタログ請求などの際に御見積をご用命された方は、この情報を該当販売店に情報提供を行うこと、資料を発送するために運送業者に住所、氏名等を通知すること等）
 上記以外は、お客様のご承諾を事前にいただかない限り、第三者にお客様の個人情報を開示することはありません。ただし、人命や人権を保護するために緊急を要する場合、または司法機関、警察等の公共機関による法令に基づく要請に協力する場合、その他法令に従う場合には、お客様にお断りすることなく情報開示することがあります。<br>
 <br>
 <h4>お問い合わせ等</h4>
 お客様は、当社が保有するお客様ご本人の個人情報について、当社所定の手続により開示、訂正、利用停止や削除をご請求いただくことができます。希望される場合は、当社の下記窓口までお問い合わせください。開示に必要な手続についてご案内させていただきます。いずれの場合におきましても、当社は、個人情報保護法の趣旨に則り、適切に対応させていただきます。<br>
 <br>
+Yamazaki｜薪ストーブプロショップ<br>
+代表　山崎 宇照
                                         </div>
                                     </div>
                                 </div>
@@ -109,8 +111,8 @@ Template name: contact
                         </div>
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white" href="//">最新記事</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white" href="/contact/#">個人情報の取扱について</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/category/blog/">ブログ</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white" href="/contact/#privacy_policy/">個人情報の取扱について</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white" href="/contact/">お問い合わせ</a></li>
                             </ul>
                         </div>

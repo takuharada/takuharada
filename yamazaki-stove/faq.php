@@ -8,14 +8,11 @@ get_template_part('header');
 ?>
            <!--========== PROMO BLOCK ==========-->
         <div class="js__parallax-window" style="background: url(<?php bloginfo('template_url'); ?>/img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
-            <div class="g-container--md g-text-center--xs g-padding-y-150--xs">
+            <div class="g-container--md g-text-center--xs g-padding-y-120--xs">
                 <div class="g-margin-b-60--xs">
                     <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-70--md g-color--white g-letter-spacing--1 g-margin-b-30--xs">FAQ</h1>
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2">お客様からお問合せいただく質問や、一般的な薪ストーブに対する疑問にお答えいたし、Q&Aでご紹介します。</p>
                 </div>
-                <a href="#js__scroll-to-section">
-                    <span class="s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-double-down"></span>
-                </a>
             </div>
         </div>
         <!--========== END PROMO BLOCK ==========-->
@@ -23,11 +20,11 @@ get_template_part('header');
         <!--========== PAGE CONTENT ==========-->
         <!-- FA Questions Text -->
         <div id="js__scroll-to-section" class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
-            <h2 class="g-font-size-32--xs g-font-size-36--md g-text-center--xs g-margin-b-80--xs">薪ストーブに関する疑問を解決</h2>
+            <h2 class="g-font-size-32--xs g-font-size-36--md g-text-center--xs g-margin-b-80--xs">薪ストーブに対する様々な疑問にお答えいたします。</h2>
             <div class="row g-margin-b-50--xs">
                 <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--sm">
-                    <p>安全のために欠かせない保守点検＆掃除</p>
-                    <p>薪ストーブを安全に使っていただくために保守点検と掃除は欠かせません。</p>
+                    <p>正しく薪ストーブを使っていただくためには</p>
+                    <p>薪ストーブにまつわる様々なことを理解しておく必要があります。</p>
                     <div class="s-faq__pseudo g-padding-y-40--xs">
                         <p class="g-color--primary g-font-family--playfair"><i>薪ストーブについて全然わからない初心者でも大丈夫?</i></p>
                         <div class="g-margin-l-70--xs">
@@ -36,12 +33,13 @@ get_template_part('header');
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <img src="<?php bloginfo('template_url'); ?>/img/1920x1080/02.jpg" width="100%" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/img/1920x1080/02.jpg" width="100%" alt="FAQ">
                 </div>
             </div>
             <div class="g-text-center--xs">
-                <p class="g-margin-b-5--xs">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-                <p>お客様から特によく聞かれる疑問点を下記にまとめました。クリックで質問への答えが開きます。</p>
+                <p class="g-margin-b-5--xs">
+                当店は薪ストーブを導入したいと思っているお客様の不安、疑問に丁寧にお答えいたします。<br>
+                お客様から特によく聞かれる疑問点を下記にまとめました。クリックで質問への答えが開きます。</p>
                 <i class="s-icon ti-angle-down"></i>
             </div>
         </div>
@@ -242,9 +240,9 @@ get_template_part('header');
             </div>
         </div>
         <!-- End Accordion -->
-        <!--========== PROMO BLOCK ==========-->
+        <!--========== parallax-window ==========-->
         <div class="js__parallax-window" style="background: url(<?php bloginfo('template_url'); ?>/img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
-            <div class="g-container--md g-text-center--xs g-padding-y-100--xs">
+            <div class="g-container--md g-text-center--xs g-padding-y-100--xs mobile_display_none">
                 <div class="g-margin-b-60--xs">
                     <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-70--md g-color--white g-letter-spacing--1 g-margin-b-30--xs">Contact Us</h1>
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2">お問合せいただくことで、さらにお客様の疑問に丁寧にお答えいたします。</p>
@@ -254,7 +252,7 @@ get_template_part('header');
                 </a>
             </div>
         </div>
-        <!--========== END PROMO BLOCK ==========-->
+        <!--========== END parallax-window ==========-->
 </div>
 <?php
 get_template_part('footer'); 

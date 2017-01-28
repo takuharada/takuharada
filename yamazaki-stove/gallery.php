@@ -278,41 +278,9 @@ How to choose wood stove</h1>
         <!-- End Portfolio -->
 
         <!-- Clients -->
-        <div class="g-bg-color--white">
-            <div class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
-                <!-- Swiper Clients -->
-                <div class="s-swiper js__swiper-clients">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/multifuoco.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/PIAZZETTA.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/RIKA.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/SUPERIOR.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".5s">
-                                <img class="s-clients-v1" src="<?php bloginfo('template_url'); ?>/img/clients/TRAVIS.jpg" alt="Clients Logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Swiper Clients -->
-            </div>
-        </div>
+        <?php
+get_template_part('clients'); 
+?>
         <!-- End Clients -->
         <!--========== END PAGE CONTENT ==========-->
 </div>
